@@ -1,0 +1,22 @@
+{
+  "name": "bit-state",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/MathieuGuillout/bit-state",
+  "authors": [
+    "MathieuGuillout <mathieu@creativelicence.com.au>"
+  ],
+  "description": "TIny bit state module",
+  "keywords": [
+    "bit",
+    "state"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
