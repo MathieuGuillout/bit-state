@@ -11,5 +11,5 @@ if exports?
     exports = module.exports = bitstate
   exports["bit-state"] = bitstate
 else
-  root["bit-state"] = bitstate
+  this["bit-state"] = bitstate
 
