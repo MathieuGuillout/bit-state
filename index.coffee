@@ -9,7 +9,7 @@ bitstate = ({ init, set_true, set_false, check } = {}) ->
 if exports?
   if module?.exports?
     exports = module.exports = bitstate
-  exports["bit-state"] = bitstate
+  exports.bitstate = bitstate
 else
-  this["bit-state"] = bitstate
+  this.bitstate = bitstate
 
