@@ -23,9 +23,9 @@
     if ((typeof module !== "undefined" && module !== null ? module.exports : void 0) != null) {
       exports = module.exports = bitstate;
     }
-    exports["bit-state"] = bitstate;
+    exports.bitstate = bitstate;
   } else {
-    this["bit-state"] = bitstate;
+    this.bitstate = bitstate;
   }
 
 }).call(this);
