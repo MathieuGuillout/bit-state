@@ -1,7 +1,7 @@
 {
   "name": "bit-state",
   "main": "index.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/MathieuGuillout/bit-state",
   "authors": [
     "MathieuGuillout <mathieu@creativelicence.com.au>"
