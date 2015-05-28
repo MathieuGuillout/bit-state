@@ -6,10 +6,5 @@ bitstate = ({ init, set_true, set_false, check } = {}) ->
   methods[set_false or "no"]  = -> val = false
   methods
 
-if exports?
-  if module?.exports?
-    exports = module.exports = bitstate
-  exports.bitstate = bitstate
-else
-  this.bitstate = bitstate
+module.exports = bitstate
 
